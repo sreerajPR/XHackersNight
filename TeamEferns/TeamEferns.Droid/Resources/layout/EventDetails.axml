@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+        <TextView
+            android:text="EventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/eventName" />
+    </LinearLayout>
+<!--    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+        <TextView
+            android:text="EventDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/eventDescription" />
+    </LinearLayout>-->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+        <TextView
+            android:text="Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/eventLocation" />
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="0dp" />
+        <TextView
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:id="@+id/eventDate" />
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="20dp" />
+</LinearLayout>

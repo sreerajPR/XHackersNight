@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{D98F84BF-0786-4E1E-B08B-048A1429C1C0}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TeamEferns.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\EventViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\MeetupAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Contract\BusinessEntityBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Contract\IBussinessEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BusinessLogic\ServerSync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CategoryViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Manager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessLayer\Repository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Categories.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CategoryListVoewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)DataAccessLayer\" />
+    <Folder Include="$(MSBuildThisFileDirectory)BusinessLogic\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Contract\" />
+  </ItemGroup>
+</Project>
